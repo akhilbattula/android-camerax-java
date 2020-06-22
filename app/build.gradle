@@ -25,7 +25,6 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
-
 }
 
 dependencies {
@@ -39,9 +38,9 @@ dependencies {
 
     implementation 'androidx.cardview:cardview:1.0.0'
 
-    def camerax_version = "1.0.0-beta03"
+    def camerax_version = "1.0.0-beta05"
     implementation "androidx.camera:camera-camera2:${camerax_version}"
     implementation "androidx.camera:camera-lifecycle:${camerax_version}"
-    implementation"androidx.camera:camera-view:1.0.0-alpha10"
-    implementation "androidx.camera:camera-extensions:1.0.0-alpha10"
+    implementation"androidx.camera:camera-view:1.0.0-alpha12"
+    implementation "androidx.camera:camera-extensions:1.0.0-alpha12"
 }

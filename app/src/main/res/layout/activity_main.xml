@@ -6,6 +6,7 @@
     android:background="#FF000000"
     >
 
+
     <androidx.camera.view.PreviewView
         android:id="@+id/previewView"
         android:layout_width="0dp"
